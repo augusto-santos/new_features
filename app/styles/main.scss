@@ -1,0 +1,18 @@
+:root{
+  --background-main-color: #333C46;
+  --font-main-color: #F4F6F9;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: var(--background-main-color);
+  color: var(--font-main-color);
+}
